@@ -1,4 +1,4 @@
-how to install dlib(python version ) on windows
+#how to install dlib(python version ) on windows
 
 - before we start, we should install Visual Studio C++ 20XX(you'd better install the high leaver version,or else that happened )
 - download the Boost library at: https://sourceforge.net/projects/boost/files/boost-binaries/1.64.0/
