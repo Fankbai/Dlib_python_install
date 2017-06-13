@@ -1,7 +1,7 @@
-#how to install dlib(python version ) on windows
+# how to install dlib(python version ) on windows
 
 - before we start, we should install Visual Studio C++ 20XX(you'd better install the high leaver version,or else that happened )
-- download the Boost library at: https://sourceforge.net/projects/boost/files/boost-binaries/1.64.0/
+- download the Boost library at: https://sourceforge.net/projects/boost/files/boost-binaries/1.64.0/   ####VS 2015 need the boost_1_64_0-msvc-**14.0**-64.exe	rather than boost_1_64_0-msvc-***14.1**-64.exe	Attention
 - Here I forgot I have installed the Cmake on my surface (VS 2015 + Cmake 3.8 version)
 - I have downloaded before,so i install into D 
 - download the Dlib
@@ -13,9 +13,9 @@ I forgot something...
 
 set the boost environment...
 
-    set BOOST_ROOT=d:\boost164_0 #(change this into your dlib path)
+    set BOOST_ROOT=d:\boost1_64_0 #(change this into your dlib path)
     
-    set BOOST_LIBRARYDIR=C:\local\boost157_0\stage\lib      # (same)
+    set BOOST_LIBRARYDIR=d:\boost1_64_0\stage\lib      # (same thing)
     
 
  
